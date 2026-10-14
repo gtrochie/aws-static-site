@@ -1,0 +1,46 @@
+/* ===== Base: applies to the whole page ===== */
+body {
+  font-family: system-ui, -apple-system, sans-serif;  /* clean default font */
+  line-height: 1.6;             /* space between lines, easier to read */
+  color: #1a1a1a;               /* near-black text */
+  background: #fafafa;          /* soft off-white, not harsh white */
+  max-width: 700px;             /* stops text stretching too wide on big screens */
+  margin: 0 auto;               /* centres that 700px column */
+  padding: 2rem 1.5rem;         /* breathing room around the edges */
+}
+
+/* ===== Header: your name block ===== */
+header h1 {
+  margin-bottom: 0.25rem;
+  color: #2b6cb0;               /* a blue accent — change to any colour you like */
+}
+
+header p {
+  color: #666;                  /* muted grey for the tagline */
+  margin-top: 0;
+}
+
+/* ===== Section headings ===== */
+h2 {
+  border-bottom: 2px solid #e2e2e2;   /* subtle underline rule */
+  padding-bottom: 0.3rem;
+  margin-top: 2.5rem;
+}
+
+/* ===== Links ===== */
+a {
+  color: #2b6cb0;
+}
+
+a:hover {
+  text-decoration: underline;   /* feedback when the mouse is over a link */
+}
+
+/* ===== Footer ===== */
+footer {
+  margin-top: 3rem;
+  padding-top: 1rem;
+  border-top: 1px solid #e2e2e2;
+  color: #999;
+  font-size: 0.9rem;
+}
