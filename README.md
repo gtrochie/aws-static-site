@@ -26,7 +26,9 @@ there's no server for me to manage — AWS serves the files for me.
 5. Added a **bucket policy** allowing `s3:GetObject` (read only) to everyone —
    anyone can view the files, nobody can change or delete them.
 
-## Project structure
+## Demo
+
+📹 Video walkthrough: https://youtu.be/QDpjgf7IcIk
 
 
 
